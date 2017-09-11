@@ -1,0 +1,1 @@
+{"cookiecutter": {"package": "etcd_config", "project_short_description": "A dynamic settings management solution using ETCD", "project_slug": "etcd-config", "namespace": "", "opensource": "yes", "full_name": "Andrey Makhnach", "copyright_year": "2017", "email": "andrey.makhnach@kpn.com"}}

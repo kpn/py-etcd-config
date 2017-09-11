@@ -1,0 +1,13 @@
+tox
+isort
+flake8
+mock==1.3.0
+pkgversion==3.0.1
+
+# PyTest for running the tests.
+pytest
+pytest-cov
+
+# docs
+sphinx
+sphinxcontrib-plantuml
