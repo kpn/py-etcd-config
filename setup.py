@@ -21,5 +21,5 @@ setup(**{'author': 'Andrey Makhnach',
  'packages': ['etcd_config', 'tests'],
  'tests_require': ['tox'],
  'url': 'https://github.com/kpn-digital/py-etcd-config',
- 'version': '1.0.2',
+ 'version': '1.0.3',
  'zip_safe': False})
