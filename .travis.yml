@@ -1,19 +1,19 @@
 language: python
 sudo: required
 services:
-  - docker
+- docker
 script:
-  - make docker/build
+- make docker/build
 before_install:
-  - pip install codecov
+- pip install codecov
 after_success:
-  - codecov
+- codecov
 deploy:
   provider: pypi
   user: kpn-digital
   skip_cleanup: true
   password:
-    secure: lYKlj+TuGHDfrbvnspgfFChlEc941hraNiuqlAkrwv5PMZrKEPoYMfzFq/36bkAXmfMJdIMo4saqAi+INop5eShsnJkFaPxTc2uEx9FXvTFsZQ8qPHhQUpAYKkSvyGh9PtHwg77PZtARct+HzaS8kEKIT0i9h4hslHhlkqVqzqDAz/J8uOSJ0/8Agk51wVdEYStLL7po1eCKkvBjEaORjSt1cqIHrIrlGYrpp7lgK2u2L4ai4WMuAMCezHaYPFQOI6Aa20nFRRGNL2V5LbSZGU6A5tYLsYk4OoqSZ05JC6d5dBYPANQ+Njz3nd+dtgz/xlffIwl8Eu7czZdVIbM4lOdloiLsoEtw+h/WGyeHiYjXdvaubFYhN91ZFO2OOL/mrEFGEnpEzIHwh3BJ8uFxJi8hcb5BIvLQ+ySnMJu6t9dDyCKYJla025fRAOtqbWgbfe+x2RpUtizNZFu66CJ33U1FP83iDB/PgHxMprKa7UsUJikmUFLLkT/aKhBCcm5NpLyx8rQCvHMTMgI9taRYehynu2u6bx9rrDh9UsmaGxCQvaV7CqP8Z9i/dVSHwjjYa0CZEf+GMRkJ/aNxheaRgIDfEUqfxhTys4tzrBge6jl220dYhCUdOSjKS+2p/0JrUHQA+JfMHbCTtXrx1+1I0SbJ28YjHRTB0uBFt1xC1mc=
+    secure: e03mlchyGHw0zqH0rjlPUjYd0AWkmgDSgG6FhnC2Q5dljwIBMyGMn0fwkYL3ClfT85J2mPtwTyLDeA4luzHEzDAisjSmx1+cAsZgsllyz4xqaxh6iyUfbT093Ur1CntzhNDs9IO07ePxz4npR7VprXTdF5Boc9LsoCH2cBVJ8C+8j0VyR0ExsukbHMl2tm7rY48hxhpURcVHDlotCzn+lE+2hJJxwTBz2WNIliFpCZ2x9ACmZehpgNmw+YnHCRvzixeKfoyuNXza6/MLnx87oFE4+XUUg6GkaO5NskWMupZy7oxh0KPkevnNeYkdR1or6+NOjc0SjNpURyh45KictaL9rf4Mly599WvDrOqh1jlW7EDYWrxWelxCkayp/j0GvwC7r3FJwGrV2lNajpMzcf8eRWVdzBK5E+3itEW+Z4IO7xW8GR8dCd0Kaax4BpPPOCFUwtREJnHa7y8GpXC9I/ffsWacaD8f9Tn1oq/j5uAi/SyaUGkz565AkAkXtlgcKEg2RnQcuJ+I0LLeohFFiKFYRVBuu5DJeCLovS+Q9vf0i12kklXcY9V/Asl0MR0/UgswzWBoV6L42MgZrb8pkKPaAMyo4Ij9NdCTRpPK9Ig7ZvCBmccDlWqbzkZQ7d09cK0LJHk8RYPuVr5PIGJFssBsiLANiBJdsn9hqsVhH5M=
   on:
     tags: true
     all_branches: true
