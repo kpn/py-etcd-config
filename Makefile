@@ -59,3 +59,5 @@ setup.py: venv
 	$(PYTHON) setup_gen.py
 	@$(PYTHON) setup.py check --restructuredtext
 
+build: clean venv tox setup.py
+
