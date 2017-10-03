@@ -1,17 +1,17 @@
 etcd_config
 ===========
 
-.. image:: https://secure.travis-ci.org/kpn-digital/etcd_config.svg?branch=master
-    :target:  http://travis-ci.org/kpn-digital/etcd_config?branch=master
+.. image:: https://secure.travis-ci.org/kpn-digital/py-etcd-config.svg?branch=master
+    :target:  http://travis-ci.org/kpn-digital/py-etcd-config?branch=master
 
-.. image:: https://img.shields.io/codecov/c/github/kpn-digital/etcd_config/master.svg
-    :target: http://codecov.io/github/kpn-digital/etcd_config?branch=master
+.. image:: https://img.shields.io/codecov/c/github/kpn-digital/py-etcd-config/master.svg
+    :target: http://codecov.io/github/kpn-digital/py-etcd-config?branch=master
 
 .. image:: https://img.shields.io/pypi/v/etcd_config.svg
     :target: https://pypi.python.org/pypi/etcd_config
 
 .. image:: https://readthedocs.org/projects/etcd_config/badge/?version=latest
-    :target: http://etcd_config.readthedocs.org/en/latest/?badge=latest
+    :target: http://etcd-config.readthedocs.org/en/latest/?badge=latest
 
 
 Features
