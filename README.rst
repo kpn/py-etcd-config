@@ -14,6 +14,11 @@ etcd_config
     :target: http://etcd-config.readthedocs.org/en/latest/?badge=latest
 
 
+NOT MAINTAINED
+--------------
+
+This repository is not actively maintained anymore.
+
 Features
 --------
 
